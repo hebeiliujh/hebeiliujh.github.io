@@ -6,24 +6,18 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="https://hebeiliujh.github.io">
-  <title>React Native 组件生命周期 | BeiGe`s Home</title>
+  <title>HTTP返回状态码及错误大全 | BeiGe`s Home</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="React Native中的component存在生命周期
-getDefaultProps
-object getDefaultProps()执行过一次后，被创建的类会有缓存，映射的值会存在this.props,前提是这个prop不是父组件指定的这个方法在对象被创建之前执行，因此不能在方法内调用this.props ，另外，注意任何getDefaultProps()返回的对象在实例中共享，不是复制">
+  <meta name="description" content="HTTP返回状态码及错误大全100 “continue”101 “switching protocols”102 “processing”200 “ok”201 “created”202 “accepted”203 “non-authoritative information”204 “no content”205 “reset content”206 “partial content”207 “">
 <meta property="og:type" content="article">
-<meta property="og:title" content="React Native 组件生命周期">
-<meta property="og:url" content="https://hebeiliujh.github.io/2017/08/30/reactnative-lifecycle/index.html">
+<meta property="og:title" content="HTTP返回状态码及错误大全">
+<meta property="og:url" content="https://hebeiliujh.github.io/2017/09/08/http-code/index.html">
 <meta property="og:site_name" content="BeiGe`s Home">
-<meta property="og:description" content="React Native中的component存在生命周期
-getDefaultProps
-object getDefaultProps()执行过一次后，被创建的类会有缓存，映射的值会存在this.props,前提是这个prop不是父组件指定的这个方法在对象被创建之前执行，因此不能在方法内调用this.props ，另外，注意任何getDefaultProps()返回的对象在实例中共享，不是复制">
-<meta property="og:updated_time" content="2017-08-30T03:18:41.000Z">
+<meta property="og:description" content="HTTP返回状态码及错误大全100 “continue”101 “switching protocols”102 “processing”200 “ok”201 “created”202 “accepted”203 “non-authoritative information”204 “no content”205 “reset content”206 “partial content”207 “">
+<meta property="og:updated_time" content="2017-09-08T11:42:25.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="React Native 组件生命周期">
-<meta name="twitter:description" content="React Native中的component存在生命周期
-getDefaultProps
-object getDefaultProps()执行过一次后，被创建的类会有缓存，映射的值会存在this.props,前提是这个prop不是父组件指定的这个方法在对象被创建之前执行，因此不能在方法内调用this.props ，另外，注意任何getDefaultProps()返回的对象在实例中共享，不是复制">
+<meta name="twitter:title" content="HTTP返回状态码及错误大全">
+<meta name="twitter:description" content="HTTP返回状态码及错误大全100 “continue”101 “switching protocols”102 “processing”200 “ok”201 “created”202 “accepted”203 “non-authoritative information”204 “no content”205 “reset content”206 “partial content”207 “">
   
     <link rel="alternative" href="/atom.xml" title="BeiGe`s Home" type="application/atom+xml">
   
@@ -155,59 +149,28 @@ object getDefaultProps()执行过一次后，被创建的类会有缓存，映�
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            <article id="post-reactnative-lifecycle" class="article article-type-post " itemscope itemprop="blogPost">
+            <article id="post-http-code" class="article article-type-post " itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
     <h1 class="article-title" itemprop="name">
-      React Native 组件生命周期
+      HTTP返回状态码及错误大全
     </h1>
   
 
         
-        <a href="/2017/08/30/reactnative-lifecycle/" class="archive-article-date">
-  	<time datetime="2017-08-30T03:12:57.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-08-30</time>
+        <a href="/2017/09/08/http-code/" class="archive-article-date">
+  	<time datetime="2017-09-08T11:40:29.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-09-08</time>
 </a>
         
       </header>
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>React Native中的component存在生命周期</p>
-<h1 id="getDefaultProps"><a href="#getDefaultProps" class="headerlink" title="getDefaultProps"></a>getDefaultProps</h1><hr>
-<p>object getDefaultProps()<br>执行过一次后，被创建的类会有缓存，映射的值会存在this.props,前提是这个prop不是父组件指定的<br>这个方法在对象被创建之前执行，因此不能在方法内调用this.props ，另外，注意任何getDefaultProps()返回的对象在实例中共享，不是复制<br><a id="more"></a></p>
-<h1 id="getInitialState"><a href="#getInitialState" class="headerlink" title="getInitialState"></a>getInitialState</h1><hr>
-<p>object getInitialState()<br>控件加载之前执行，返回值会被用于state的初始化值</p>
-<h1 id="componentWillMount"><a href="#componentWillMount" class="headerlink" title="componentWillMount"></a>componentWillMount</h1><hr>
-<p>void componentWillMount()<br>执行一次，在初始化render之前执行，如果在这个方法内调用setState，render()知道state发生变化，并且只执行一次</p>
-<h1 id="render"><a href="#render" class="headerlink" title="render"></a>render</h1><hr>
-<p>ReactElement render()<br>render的时候会调用render()会被调用<br>调用render()方法时，首先检查this.props和this.state返回一个子元素，子元素可以是DOM组件或者其他自定义复合控件的虚拟实现<br>如果不想渲染可以返回null或者false，这种场景下，react渲染一个<noscript>标签，当返回null或者false时，ReactDOM.findDOMNode(this)返回null<br>render()方法是很纯净的，这就意味着不要在这个方法里初始化组件的state，每次执行时返回相同的值，不会读写DOM或者与服务器交互，如果必须如服务器交互，在componentDidMount()方法中实现或者其他生命周期的方法中实现，保持render()方法纯净使得服务器更准确，组件更简单</noscript></p>
-<h1 id="componentDidMount"><a href="#componentDidMount" class="headerlink" title="componentDidMount"></a>componentDidMount</h1><hr>
-<p>void componentDidMount()<br>在初始化render之后只执行一次，在这个方法内，可以访问任何组件，componentDidMount()方法中的子组件在父组件之前执行<br>从这个函数开始，就可以和 js 其他框架交互了，例如设置计时 setTimeout 或者 setInterval，或者发起网络请求</p>
-<h1 id="shouldComponentUpdate"><a href="#shouldComponentUpdate" class="headerlink" title="shouldComponentUpdate"></a>shouldComponentUpdate</h1><hr>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">boolean shouldComponentUpdate(</div><div class="line">  object nextProps, object nextState</div><div class="line">)</div></pre></td></tr></table></figure>
-<p>这个方法在初始化render时不会执行，当props或者state发生变化时执行，并且是在render之前，当新的props或者state不需要更新组件时，返回false</p>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">shouldComponentUpdate: <span class="function"><span class="keyword">function</span>(<span class="params">nextProps, nextState</span>) </span>&#123;</div><div class="line">  <span class="keyword">return</span> nextProps.id !== <span class="keyword">this</span>.props.id;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
-<p>当shouldComponentUpdate方法返回false时，讲不会执行render()方法，componentWillUpdate和componentDidUpdate方法也不会被调用</p>
-<p>默认情况下，shouldComponentUpdate方法返回true防止state快速变化时的问题，但是如果·state不变，props只读，可以直接覆盖shouldComponentUpdate用于比较props和state的变化，决定UI是否更新，当组件比较多时，使用这个方法能有效提高应用性能</p>
-<h1 id="componentWillUpdate"><a href="#componentWillUpdate" class="headerlink" title="componentWillUpdate"></a>componentWillUpdate</h1><hr>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">void</span> componentWillUpdate(</div><div class="line">  object nextProps, object nextState</div><div class="line">)</div></pre></td></tr></table></figure>
-<p>当props和state发生变化时执行，并且在render方法之前执行，当然初始化render时不执行该方法，需要特别注意的是，在这个函数里面，你就不能使用this.setState来修改状态。这个函数调用之后，就会把nextProps和nextState分别设置到this.props和this.state中。紧接着这个函数，就会调用render()来更新界面了</p>
-<h1 id="componentDidUpdate"><a href="#componentDidUpdate" class="headerlink" title="componentDidUpdate"></a>componentDidUpdate</h1><hr>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">void</span> componentDidUpdate(</div><div class="line">  object prevProps, object prevState</div><div class="line">)</div></pre></td></tr></table></figure>
-<p>组件更新结束之后执行，在初始化render时不执行</p>
-<h1 id="componentWillReceiveProps"><a href="#componentWillReceiveProps" class="headerlink" title="componentWillReceiveProps"></a>componentWillReceiveProps</h1><hr>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">void</span> componentWillReceiveProps(</div><div class="line">  object nextProps</div><div class="line">)</div></pre></td></tr></table></figure>
-<p>当props发生变化时执行，初始化render时不执行，在这个回调函数里面，你可以根据属性的变化，通过调用this.setState()来更新你的组件状态，旧的属性还是可以通过this.props来获取,这里调用更新状态是安全的，并不会触发额外的render调用</p>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">componentWillReceiveProps: <span class="function"><span class="keyword">function</span>(<span class="params">nextProps</span>) </span>&#123;</div><div class="line">  <span class="keyword">this</span>.setState(&#123;</div><div class="line">    <span class="attr">likesIncreasing</span>: nextProps.likeCount &gt; <span class="keyword">this</span>.props.likeCount</div><div class="line">  &#125;);</div><div class="line">&#125;</div></pre></td></tr></table></figure>
-<h1 id="componentWillUnmount"><a href="#componentWillUnmount" class="headerlink" title="componentWillUnmount"></a>componentWillUnmount</h1><hr>
-<p>void componentWillUnmount()</p>
-<p>当组件要被从界面上移除的时候，就会调用componentWillUnmount(),在这个函数中，可以做一些组件相关的清理工作，例如取消计时器、网络请求等</p>
-<!-- 总结
+        <p>HTTP返回状态码及错误大全<br>100 “continue”<br>101 “switching protocols”<br>102 “processing”<br>200 “ok”<br>201 “created”<br>202 “accepted”<br>203 “non-authoritative information”<br>204 “no content”<br>205 “reset content”<br>206 “partial content”<br>207 “multi-status”<br>208 “already reported”<br>226 “im used”<br>300 “multiple choices”<br>301 “moved permanently”<br>302 “found”<br>303 “see other”<br>304 “not modified”<br>305 “use proxy”<br>307 “temporary redirect”<br>308 “permanent redirect”<br>400 “bad request”<br>401 “unauthorized”<br>402 “payment required”<br>403 “forbidden”<br>404 “not found”<br>405 “method not allowed”<br>406 “not acceptable”<br>407 “proxy authentication required”<br>408 “request timeout”<br>409 “conflict”<br>410 “gone”<br>411 “length required”<br>412 “precondition failed”<br>413 “payload too large”<br>414 “uri too long”<br>415 “unsupported media type”<br>416 “range not satisfiable”<br>417 “expectation failed”<br>418 “I’m a teapot”<br>422 “unprocessable entity”<br>423 “locked”<br>424 “failed dependency”<br>426 “upgrade required”<br>428 “precondition required”<br>429 “too many requests”<br>431 “request header fields too large”<br>500 “internal server error”<br>501 “not implemented”<br>502 “bad gateway”<br>503 “service unavailable”<br>504 “gateway timeout”<br>505 “http version not supported”<br>506 “variant also negotiates”<br>507 “insufficient storage”<br>508 “loop detected”<br>510 “not extended”<br>511 “network authentication required”</p>
 
-React Native的生命周期就介绍完了，其中最上面的虚线框和右下角的虚线框的方法一定会执行，左下角的方法根据props state是否变化去执行，其中建议只有在componentWillMount,componentDidMount,componentWillReceiveProps方法中可以修改state值 -->
       
 
       
@@ -246,29 +209,7 @@ React Native的生命周期就介绍完了，其中最上面的虚线框和右�
     <div class="article-info article-info-index">
       
       
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">React Native</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
       
-	<div class="article-category tagcloud">
-		<i class="icon-book icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="/categories/React/" class="article-tag-list-link color1">React</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
 
       
 
@@ -318,7 +259,7 @@ React Native的生命周期就介绍完了，其中最上面的虚线框和右�
     <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
     <p>扫一扫，分享到微信</p>
     <div class="wx-qrcode">
-      <img src="http://s.jiathis.com/qrcode.php?url=https://hebeiliujh.github.io/2017/08/30/reactnative-lifecycle/" alt="微信分享二维码">
+      <img src="http://s.jiathis.com/qrcode.php?url=https://hebeiliujh.github.io/2017/09/08/http-code/" alt="微信分享二维码">
     </div>
 </div>
 
@@ -332,18 +273,9 @@ React Native的生命周期就介绍完了，其中最上面的虚线框和右�
   
 <nav id="article-nav">
   
-    <a href="/2017/09/08/http-code/" id="article-nav-newer" class="article-nav-link-wrap">
-      <i class="icon-circle-left"></i>
-      <div class="article-nav-title">
-        
-          HTTP返回状态码及错误大全
-        
-      </div>
-    </a>
   
-  
-    <a href="/2017/03/16/git-cheat-sheet/" id="article-nav-older" class="article-nav-link-wrap">
-      <div class="article-nav-title">常用 Git 命令清单</div>
+    <a href="/2017/08/30/reactnative-lifecycle/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">React Native 组件生命周期</div>
       <i class="icon-circle-right"></i>
     </a>
   
@@ -357,7 +289,7 @@ React Native的生命周期就介绍完了，其中最上面的虚线框和右�
   
   <div class="duoshuo">
 	<!-- 多说评论框 start -->
-	<div class="ds-thread" data-thread-key="reactnative-lifecycle" data-title="React Native 组件生命周期" data-url="https://hebeiliujh.github.io/2017/08/30/reactnative-lifecycle/"></div>
+	<div class="ds-thread" data-thread-key="http-code" data-title="HTTP返回状态码及错误大全" data-url="https://hebeiliujh.github.io/2017/09/08/http-code/"></div>
 	<!-- 多说评论框 end -->
 	<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
 	<script type="text/javascript">
